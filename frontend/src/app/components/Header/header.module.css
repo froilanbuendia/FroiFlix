@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url(../../assets/fonts/BebasNeue-Regular.ttf);
+}
+.headerWrapper {
+  position: absolute;
+}
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+  padding-block: 0.5rem;
+}
+
+.logoText {
+  font-family: "BebasNeue";
+  font-size: 3rem;
+  color: red;
+  padding-right: 15rem;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  padding-left: 15rem;
+}
+
+.languageDropdown {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.25rem 1rem 0.25rem 0.625rem;
+  border-radius: 0.25rem;
+  border: 0.03125rem solid gray;
+  font-weight: 500;
+}
+
+.signIn {
+  padding: 0.375rem 1rem 0.375rem 1rem;
+  border-radius: 0.375rem;
+  background: red;
+  font-weight: 600;
+  font-size: 0.8725rem;
+}
+
+.dropdownMenu {
+  position: relative;
+  margin-right: 20px;
+}
+
+.languageDropdown {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdownList {
+  background: gray;
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  z-index: 1;
+}
